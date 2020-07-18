@@ -1,0 +1,75 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: #ffff;
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+}
+
+.navbar-brand {
+    color: #000;
+}
+
+.logo-brand {
+    width: 100px;
+}
+
+.navbar-toogler {
+    font-size: 40px;
+}
+
+.navbar-toogler:focus {
+    outline: none;
+}
+
+#hero {
+    background-size: cover;
+    padding-top: 90px;
+    color: #fff;
+}
+
+#hero img {
+    width: 50%;
+    height: 50%;
+    margin-left: 26%;
+}
+
+#hero h1 {
+    color: #1a1a1a;
+}
+
+#hero p {
+    color: #1a1a1a;
+}
+
+#galeria {
+    text-align: center;
+    padding: 20px;
+}
+
+#galeria .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-gal {
+    margin: 20px;
+}
+
+.info-gal img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
